@@ -63,13 +63,15 @@ a.featured:before{
   max-width:400px;
   margin:0 auto2;
 }
-.channels a{
-  flex:1;
-  padding:5px 10px;
-  margin-right:10px;
-  border:2px solid #fff;
-  text-align: center;
-}
+.channels {
+  a{
+    flex:1;
+    padding:5px 10px;
+    margin-right:10px;
+    border:2px solid #fff;
+    text-align: center;
+  }
+  
 .channels a:last-child{
   margin-right:0
 }
